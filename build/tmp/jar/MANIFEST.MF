@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: modBase
+Specification-Vendor: Lenvill
+Specification-Version: 1
+Implementation-Title: modBase
+Implementation-Version: 0.0
+Implementation-Vendor: Lenvill
+Implementation-Timestamp: 2023-07-28T14:39:20-0500
+
