@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 public class MFRExMain {
     public static final String MODID = "mfrex";
     public static final String NAME = "mfrex";
-    public static final String VERSION = "0.1";
+    public static final String VERSION = "${version}"; //This syntax will pull the number from gradle.properties, which is where we want to centralize publishing information
 
     @SidedProxy(clientSide = "com.MFREx.proxy.ClientProxy", serverSide = "com.MFREx.proxy.CommonProxy")
     public static CommonProxy PROXY;
